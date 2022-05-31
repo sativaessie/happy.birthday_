@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="423dp"
+        android:layout_height="734dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/birthday_wishes_cake"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="241dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:rotation="-62"
+        android:rotationX="21"
+        android:rotationY="8"
+        android:text="HAPPY BIRTHDAY TAMIKA"
+        android:textColor="@color/black"
+        android:textColorLink="#E91E63"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="155dp"
+        android:layout_height="52dp"
+        android:fontFamily="@font/aguafina_script"
+        android:rotation="-25"
+        android:rotationX="-46"
+        android:rotationY="21"
+        android:text="BLOW MORE CANDLES"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="663dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="146dp"
+        android:layout_height="92dp"
+        android:rotation="348"
+        android:rotationX="-17"
+        android:rotationY="58"
+        android:text="Love youuu sooo much  BESTIE"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:text="FROM RUBY"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="581dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
